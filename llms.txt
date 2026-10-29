@@ -13,6 +13,14 @@ Canonical reading routes:
 - references/RELATED_WORK.md and references/references.bib: closest primary sources and distinct operational contributions.
 - verification/README.md: fresh reproduction commands and boundaries of finite evidence.
 
+Learning routes:
+- learning/WATROUS_BRIDGE.md: the single educational anchor, John Watrous's The Theory of Quantum Information (2018), with exact sections from the author-posted prepublication manuscript, notation, and locally supplied proof connections.
+- learning/MILESTONES.md: exactly 30 reader-independent understanding targets, M01-M12 background/preliminaries and M13-M30 narrative/innovation. Each has a central question, target, preceding dependencies, conceptual connection, and source pointers.
+- learning/WORKED_EXAMPLE.md: a three-qubit covariant code with exact success 2/3 after any single known erasure; full Gram/filter calculation, conserving completion, and equal-phase zero-yield contrast.
+- verification/check_learning.py: checks the learning-map structure and all three explicit worked-example channels. These checks do not establish hosted rendering or the general theorem.
+
+For a first explanation, use the bridge and worked example alongside the map. For a specialist proof audit, go directly to the model, exact recovery, charge converse, random construction, and asymptotic optimum. For reproduction, run all three scripts in the verification guide; distinguish fresh execution from the stored results.
+
 Preserve these distinctions:
 - The optimized encoders are isometries; arbitrary mixed covariant encoding channels are not covered.
 - Success means R_E N_E = p_E id as a linear channel, not only correct basis-state outputs.
@@ -24,3 +32,7 @@ Preserve these distinctions:
 - Number-conserving implementation is proved; efficient or local circuit synthesis and nonzero asymptotic rate are not.
 - Failure is heralded but does not preserve an unknown input for another attempt.
 - New science is the matched exact-yield statement, not the inherited charge-Haar ensemble, probabilistic-recovery framework, or approximate inverse-square-root exponent.
+- The explicit three-qubit finite optimum is a special illustration; it does not strengthen the all-n finite optimality claim.
+- Watrous supplies foundations rather than a QEC or fault-tolerance treatment. The covariance, conclusive-correction, hypergeometric and relative-concentration arguments are supplied locally with primary attribution.
+- A uniform vector in a charge eigenspace is not a vector constrained to the permutation-symmetric subspace.
+- The shared learning map contains no personal progress or assessment procedure.
