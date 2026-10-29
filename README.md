@@ -30,15 +30,36 @@ The general probabilistic-recovery conditions and random covariant encoding ense
 
 Start with the [scientific overview](science/README.md) and [operational model](science/model.md). The proof route proceeds through the recovery criterion, charge converse, random construction, and asymptotic optimization. The [physical interpretation](science/interpretation.md) explains why a small approximate error alone does not guarantee any nonzero exact recovery probability.
 
-For reproduction:
+## Learn the project
+
+The single educational anchor is **John Watrous, *The Theory of Quantum Information* (2018)**, using the author's posted prepublication manuscript. The [Watrous bridge](learning/WATROUS_BRIDGE.md) identifies relevant sections, translates notation, and supplies the steps from channel representations and random vectors to this exact-yield problem.
+
+The [30-milestone understanding map](learning/MILESTONES.md) contains **12 background/preliminaries** and **18 narrative/innovation** milestones. It follows the project's conceptual dependencies from local objects to the complete result; it is independent of any reader's assessment history.
+
+The [three-qubit worked example](learning/WORKED_EXAMPLE.md) constructs an exact accepted channel of probability $2/3$ after every single known erasure. An equal-phase comparison has the same erased basis-state statistics but zero exact accepted probability, illustrating why logical coherence must be checked.
+
+| Reading intention | Starting point |
+| --- | --- |
+| Understand the experiment and physical result | [Model](science/model.md), then [interpretation](science/interpretation.md) |
+| Build the foundations and connect the proof | [Watrous bridge](learning/WATROUS_BRIDGE.md) with [M01–M30](learning/MILESTONES.md) |
+| See the full operation in a small example | [Three-qubit recovery](learning/WORKED_EXAMPLE.md) |
+| Audit necessity and attainability | [Science index](science/README.md), [recovery criterion](science/exact_recovery.md), and [all-sector construction](science/random_construction.md) |
+| Reproduce the finite evidence | [Verification guide](verification/README.md) |
+
+The [reading guide](llms.txt) maps questions to the authoritative files. Primary research citations remain necessary alongside the single educational anchor.
+
+## Reproduce the checks
+
+From the repository root:
 
 ```bash
 python -m pip install -r verification/requirements.txt
 python verification/run_all.py
 python verification/check_structure.py
+python verification/check_learning.py
 ```
 
-The [verification guide](verification/README.md) distinguishes exact combinatorial checks, floating-point channel calculations, and the general analytical arguments.
+The [verification guide](verification/README.md) distinguishes exact combinatorial checks, floating-point channel calculations, source checks, and the general analytical arguments.
 
 ## Scope
 
