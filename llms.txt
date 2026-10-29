@@ -1,0 +1,26 @@
+# Covariant Erasure Yield
+
+Question: optimal exact heralded recovery after known-location extensive erasure for one logical qubit encoded isometrically and U(1)-covariantly into ordinary excitation qubits.
+
+Canonical reading routes:
+- science/model.md: exact covariance, charge offsets, success-channel equality, all-pattern optimization, main theorem and scope.
+- science/exact_recovery.md: inherited probabilistic-correction criterion in Gram form, pseudoinverse accepted filter, common environmental substate, and why approximate correction alone is insufficient.
+- science/charge_converse.md: averaging arbitrary codewords over erased positions, adjacent hypergeometric TV identity, and finite offset caveat.
+- science/random_construction.md: uniform Vandermonde dimension surplus, self-contained Gaussian net bound, all-pattern union bound, normalization, and exact accepted yield.
+- science/asymptotic_optimum.md: interior Stirling constant, boundary-offset exclusion, optimization over all offsets, even-length construction and fewer erasures.
+- science/conserving_implementation.md: number-conserving encoder, output garbage embedding, accepted filter and neutral-flag completion.
+- science/interpretation.md: physical meaning, half-erasure obstruction, rate and implementation limits.
+- references/RELATED_WORK.md and references/references.bib: closest primary sources and distinct operational contributions.
+- verification/README.md: fresh reproduction commands and boundaries of finite evidence.
+
+Preserve these distinctions:
+- The optimized encoders are isometries; arbitrary mixed covariant encoding channels are not covered.
+- Success means R_E N_E = p_E id as a linear channel, not only correct basis-state outputs.
+- The single code handles every known erased subset of a fixed size; the decoder may depend on that subset.
+- The universal hypergeometric converse is worst-pattern after averaging, not a pointwise assertion for each subset of any code.
+- Central sectors attain the optimal leading constant, not an asserted finite-size optimum over all offsets.
+- Fixed alpha below 1/2 is essential for the exponential dimension surplus; no uniform critical-window law is established.
+- Exact accepted recovery, trace-distance decoupling, and purified-distance recovery error are different operational quantities.
+- Number-conserving implementation is proved; efficient or local circuit synthesis and nonzero asymptotic rate are not.
+- Failure is heralded but does not preserve an unknown input for another attempt.
+- New science is the matched exact-yield statement, not the inherited charge-Haar ensemble, probabilistic-recovery framework, or approximate inverse-square-root exponent.

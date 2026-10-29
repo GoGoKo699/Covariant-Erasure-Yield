@@ -1,0 +1,29 @@
+{
+  "asymptotic_samples": [
+    {"alpha": 0.1, "k": 10, "limiting_coefficient": 0.2659615202676218, "n": 101, "sqrt_n_TV": 0.2552416696508025},
+    {"alpha": 0.1, "k": 100, "limiting_coefficient": 0.2659615202676218, "n": 1001, "sqrt_n_TV": 0.2648635768125226},
+    {"alpha": 0.1, "k": 1000, "limiting_coefficient": 0.2659615202676218, "n": 10001, "sqrt_n_TV": 0.26585147012449634},
+    {"alpha": 0.25, "k": 25, "limiting_coefficient": 0.46065886596178063, "n": 101, "sqrt_n_TV": 0.4595592698505329},
+    {"alpha": 0.25, "k": 250, "limiting_coefficient": 0.46065886596178063, "n": 1001, "sqrt_n_TV": 0.4593185734156145},
+    {"alpha": 0.25, "k": 2500, "limiting_coefficient": 0.46065886596178063, "n": 10001, "sqrt_n_TV": 0.460524540148564},
+    {"alpha": 0.4, "k": 40, "limiting_coefficient": 0.65147001587056, "n": 101, "sqrt_n_TV": 0.6327527977879436},
+    {"alpha": 0.4, "k": 400, "limiting_coefficient": 0.65147001587056, "n": 1001, "sqrt_n_TV": 0.6495484605923794},
+    {"alpha": 0.4, "k": 4000, "limiting_coefficient": 0.65147001587056, "n": 10001, "sqrt_n_TV": 0.6512773465869839},
+    {"alpha": 0.49, "k": 49, "limiting_coefficient": 0.7820833018919816, "n": 101, "sqrt_n_TV": 0.7728394268202788},
+    {"alpha": 0.49, "k": 490, "limiting_coefficient": 0.7820833018919816, "n": 1001, "sqrt_n_TV": 0.7795805935506483},
+    {"alpha": 0.49, "k": 4900, "limiting_coefficient": 0.7820833018919816, "n": 10001, "sqrt_n_TV": 0.78183224786466}
+  ],
+  "combinatorial": {
+    "adjacent_identity_cases": 8554,
+    "all_sector_dimension_cases": 5950,
+    "finite_size_counterexample": {"central_TV": "5/33", "k": 3, "n": 11, "offset_3_TV": "7/55"}
+  },
+  "environment": {"numpy": "2.3.5", "python": "3.13.5", "scipy": "1.17.0"},
+  "finite_channels": [
+    {"k": 1, "maximum_choi_residual": 3.3306690738754696e-16, "maximum_contraction_norm_squared": 0.9999999999000007, "maximum_covariance_residual": 0.0, "maximum_inverse_residual": 2.2247786310271853e-16, "minimum_certified_success": 0.4871323641857481, "n": 7, "patterns": 7, "seed": 20261029},
+    {"k": 2, "maximum_choi_residual": 4.440892098500626e-16, "maximum_contraction_norm_squared": 0.9999999999000011, "maximum_covariance_residual": 0.0, "maximum_inverse_residual": 2.220446049250313e-16, "minimum_certified_success": 0.4413631686108058, "n": 9, "patterns": 36, "seed": 20261030},
+    {"k": 3, "maximum_choi_residual": 3.3306690738754696e-16, "maximum_contraction_norm_squared": 0.9999999998999995, "maximum_covariance_residual": 0.0, "maximum_inverse_residual": 1.6667795129466247e-16, "minimum_certified_success": 0.38765291333186774, "n": 11, "patterns": 165, "seed": 20261031}
+  ],
+  "scope": "finite identities and explicit channels; not a universal-proof certificate",
+  "status": "passed"
+}
